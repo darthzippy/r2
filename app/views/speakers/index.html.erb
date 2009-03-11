@@ -1,0 +1,26 @@
+<h1>Listing speakers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Blanket</th>
+    <th>Blanket start</th>
+    <th>Blanket end</th>
+  </tr>
+
+<% for speaker in @speakers %>
+  <tr>
+    <td><%=h speaker.name %></td>
+    <td><%=h speaker.blanket %></td>
+    <td><%=h speaker.blanket_start %></td>
+    <td><%=h speaker.blanket_end %></td>
+    <td><%= link_to 'Show', speaker %></td>
+    <td><%= link_to 'Edit', edit_speaker_path(speaker) %></td>
+    <td><%= link_to 'Destroy', speaker, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New speaker', new_speaker_path %>

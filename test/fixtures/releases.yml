@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  event_id: 1
+  speaker_id: 1
+  original: false
+  record_audio: false
+  record_video: false
+  likeness: false
+  distribute_campus: false
+  distribute_public: false
+  distribute_alumni: false
+  sponsor: MyString
+  sponsor_ok: false
+
+two:
+  event_id: 1
+  speaker_id: 1
+  original: false
+  record_audio: false
+  record_video: false
+  likeness: false
+  distribute_campus: false
+  distribute_public: false
+  distribute_alumni: false
+  sponsor: MyString
+  sponsor_ok: false

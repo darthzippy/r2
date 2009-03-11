@@ -1,0 +1,40 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/tmp/tuneup/runs/development
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-08-19T15:58:22.078950Z
+58
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+c941ad20dc843d199a8832622748bcf0b460ca68
+dir
+
+da23cad9240c61b5ce009ff9e6a7308e4a69d55e
+dir
+
+00f0734cbdb951e6e676e7e684a613fadeddae36
+dir
+
+e950eee3b03de74dbebb4d53425f395caa5595fe
+dir
+

@@ -1,0 +1,85 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/vendor/plugins/hoptoad_notifier
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-08-08T18:56:56.168735Z
+33
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+0a5a42d566905c0468a501cc656bd30c
+2008-08-08T18:56:56.168735Z
+33
+eric
+
+tasks
+dir
+
+lib
+dir
+
+INSTALL
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+7359a1565c4407e191cc0ef7480056fa
+2008-08-08T18:56:56.168735Z
+33
+eric
+
+install.rb
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+a950d10544b5257a2e843b3ba577f6d7
+2008-08-08T18:56:56.168735Z
+33
+eric
+
+README
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+6024bd5a4aee27d9846ea8d213b14ffb
+2008-08-08T18:56:56.168735Z
+33
+eric
+

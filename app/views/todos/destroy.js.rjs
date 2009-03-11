@@ -1,0 +1,6 @@
+page[:todos_incomplete].replace_html :partial => 'todos/todo_item',
+                          :locals  => { :todos => @event.todos.incomplete,
+                                        :event => @event }
+page[:todos_complete].replace_html :partial => 'todos/todo_item',
+                          :locals  => { :todos => @event.todos.completed,
+                                        :event => @event }

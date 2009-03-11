@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  blanket: false
+  blanket_start: 2008-07-09 15:03:19
+  blanket_end: 2008-07-09 15:03:19
+
+two:
+  name: MyString
+  blanket: false
+  blanket_start: 2008-07-09 15:03:19
+  blanket_end: 2008-07-09 15:03:19

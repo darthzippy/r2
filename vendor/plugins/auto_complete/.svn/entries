@@ -1,0 +1,70 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/vendor/plugins/auto_complete
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-07-11T20:16:13.819714Z
+8
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+705a89824a98485e70202ea52528c61c
+2008-07-11T20:16:13.819714Z
+8
+eric
+
+init.rb
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+bcf4ca5abe5686688244b12bce018e24
+2008-07-11T20:16:13.819714Z
+8
+eric
+
+lib
+dir
+
+README
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+fb23a17d26849791cce5930621981272
+2008-07-11T20:16:13.819714Z
+8
+eric
+

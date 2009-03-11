@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Events: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold', 'application' %>
+  <%= javascript_include_tag :defaults, 'lowpro' %>
+</head>
+<body class="projects projects-index">
+
+	<div id="page">
+		<div id="sub-content">
+			<h1> 
+	          <a href="/">Hoptoad</a> 
+	        </h1>
+			<div class="content"> 
+	          <ul class="nav"> 
+	            <li class="errors"> 
+	              <%= link_to 'Events', events_path %>  
+	            </li>  
+	            <li class="users"> 
+	              <%= link_to 'Users', users_path %> 
+	            </li> 
+	          </ul> 
+	          <ul class="user"> 
+	            <li class="profile"> 
+	              <a href="http://gordoncollege.hoptoadapp.com/users/292/edit">My Profile</a> 
+	            </li> 
+	            <li class="logout"> 
+	              <a href="http://gordoncollege.hoptoadapp.com/logout">Logout</a> 
+	            </li> 
+	          </ul> 
+	        </div>	
+		</div>
+
+		<div id="content">
+		  <p style="color: green"><%= flash[:notice] %></p>
+
+		  <%= yield  %>
+	
+		</div>
+		
+		<div id="footer">  
+          <div class="logo"> 
+            <a href="http://www.gordon.edu"><img alt="Gordon" src="/images/gordon_logo.png" />Service Provided By<br />Gordon College CET</a> 
+          </div> 
+          <div class="links"> 
+            <ul> 
+              <li><a href="http://172.16.13.156/groups/cet/blog/">Blog (will be back soon)</a></li>  
+              <li><a href="mailto:eric.givens@gordon.edu?subject=R2 Issue">Report an Issue</a></li> 
+              <li><a href="mailto:eric.givens@gordon.edu?subject=R2 Feature Request">Request a Feature</a></li> 
+            </ul> 
+            <p> 
+              R2 is &copy; 2009
+              <a href="http://www.gordon.edu">Gordon College</a> 
+            </p> 
+          </div> 
+      	</div>
+
+    </div>
+</body>
+</html>

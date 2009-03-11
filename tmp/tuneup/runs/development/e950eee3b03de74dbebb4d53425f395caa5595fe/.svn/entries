@@ -1,0 +1,41 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/tmp/tuneup/runs/development/e950eee3b03de74dbebb4d53425f395caa5595fe
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-08-19T15:58:22.078950Z
+58
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+1219159660706_23917.yml.gz
+file
+
+
+
+
+2008-08-20T17:12:13.000000Z
+a7ea6e59f23905ba5410b2e86e556270
+2008-08-19T15:58:22.078950Z
+58
+eric
+has-props
+

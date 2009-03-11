@@ -1,0 +1,40 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/vendor/plugins/action_mailer_tls/lib
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-07-16T20:21:20.848881Z
+18
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+smtp_tls.rb
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+e9b9482f28bb78332e05bb73465cfcfa
+2008-07-16T20:21:20.848881Z
+18
+eric
+

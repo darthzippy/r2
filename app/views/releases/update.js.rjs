@@ -1,0 +1,5 @@
+page[:releases].replace_html :partial => 'releases/releases',
+                             :locals  => { :releases => @event.releases,
+                                           :event    => @event }
+                                           
+page[@release].highlight

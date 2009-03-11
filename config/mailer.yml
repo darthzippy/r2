@@ -1,0 +1,6 @@
+--- 
+  :address: smtp.gmail.com
+  :port: 587
+  :user_name: cetapps@gmail.com
+  :password: Hermione1
+  :authentication: :plain

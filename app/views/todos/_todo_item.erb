@@ -1,0 +1,18 @@
+<table cellspacing="0">
+<% for todo in todos -%>
+  <tr id="<%= dom_id(todo) %>">
+  	<td>
+  		<%= check_box_tag "todo_ids[]", todo.id %>
+  	</td>
+	<td>
+  		<%= todo.user.fullname %>
+  	</td>
+	<td>
+		<%= todo.action %>
+	</td>
+	<td><%= link_to_remote(image_tag("trash.gif"), :url => event_todo_url(event, todo), :confirm => 'Are you sure?', :method => :delete ) %></td>
+  </tr>
+<% end %>
+</table>
+
+  

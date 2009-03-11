@@ -1,0 +1,48 @@
+<p style="color: red"><%= flash[:error] %></p>
+
+<%- remote_form_for [@event, @release] do |f| -%>
+ 
+  <p>
+  	<%= f.label :speaker_name  %>
+    <%= text_field_with_auto_complete :release, :speaker_name, { :size => 25 }, { :url => formatted_speakers_path(:js), :method =>  :get, :param_name => 'search', :autocomplete => 'off' } %>
+  </p>
+	
+	<div id="release_form_left">
+	  <p>
+		<%= f.label :original_material %>
+		<%= f.select :original, [['No', false], ['Yes', true]] %>
+	  </p>
+	  <p>
+		<%= f.label :audio_record %>
+		<%= f.select :record_audio, [['No', false], ['Yes', true]] %>
+	  </p>
+	  <p>
+		<%= f.label :video_record %>
+		<%= f.select :record_video, [['No', false], ['Yes', true]] %>
+	  </p>	
+	</div>
+	
+	<div id="release_form_right">
+	  <p>
+		<%= f.label :use_likeness %>
+		<%= f.select :likeness, [['No', false], ['Yes', true]] %>
+	  </p>
+	  <p>
+		<%= f.label :distribute_to_campus %>
+		<%= f.select :distribute_campus, [['No', false], ['Yes', true]] %>
+	  </p>
+	  <p>
+		<%= f.label :distribute_to_public %>
+		<%= f.select :distribute_public, [['No', false], ['Yes', true]] %>
+	  </p>	
+	</div>
+	
+	<div id="release_links">
+	  <%= f.submit button_name %> or 
+	  <%= link_to_function("I'm done adding Releases", nil) do |page|
+		page[:edit_release].fade
+		page[:release_form].fade
+		page[:release_add].appear
+	  end %>	
+	</div>
+<%- end -%>

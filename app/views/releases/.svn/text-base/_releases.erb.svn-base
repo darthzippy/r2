@@ -1,0 +1,29 @@
+<table cellspacing="0">
+  <tr>
+    <th>Speaker</th>
+    <th>Distribute to Campus</th>
+    <th>Distribute to Public</th>
+	<th></th>
+	<th></th>
+  </tr>
+
+<% for release in releases -%>
+  <tr id="<%= dom_id(release) %>">
+  	<td>
+  		<%= release.speaker.name %>
+  	</td>
+	<td>
+		<%= release.distribute_campus %>
+	</td>
+	<td>
+		<%= release.distribute_public %>
+	</td>
+	<td>
+	  <%= link_to_remote 'Edit Release', :url => edit_event_release_url(event, release), :method => :get %>
+	</td>
+	<td>
+	  <%= link_to_remote(image_tag("trash.gif"), :url => event_release_url(event, release), :confirm => 'Are you sure?', :method => :delete ) %>
+	</td>
+  </tr>
+<% end %>
+</table>

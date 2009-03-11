@@ -1,0 +1,40 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/vendor/plugins/hoptoad_notifier/test
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-08-08T18:56:56.168735Z
+33
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+hoptoad_notifier_test.rb
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+64687c613c8d1261bbf9ba5b05d13d59
+2008-08-08T18:56:56.168735Z
+33
+eric
+

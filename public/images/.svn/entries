@@ -1,0 +1,99 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/public/images
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-08-19T15:58:22.078950Z
+58
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+tuneup
+dir
+
+user.png
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+b35633fa96d12c4dbda05730ccea73f9
+2008-08-15T14:11:59.040575Z
+38
+eric
+has-props
+
+logo.png
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+b658aba0c380fe4f2139ef362e2d848d
+2008-08-15T15:02:39.443764Z
+47
+eric
+has-props
+
+temp
+dir
+
+trash.gif
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+b65519d299600e5c95d3e82c5142e260
+2008-07-17T17:31:48.569615Z
+22
+eric
+has-props
+
+dots-white.gif
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+ec64e576d5c1fff28419230e172b49f9
+2008-07-17T17:31:48.569615Z
+22
+eric
+has-props
+
+gordon_logo.png
+file
+
+
+
+
+2008-08-20T17:12:16.000000Z
+3a2bdaff7ed1b0f91aad2b79bedb8b4f
+2008-08-15T15:09:19.959069Z
+51
+eric
+has-props
+

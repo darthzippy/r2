@@ -1,0 +1,49 @@
+8
+
+dir
+62
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo/r2/app/views
+svn+ssh://eric@172.16.13.156/Users/Shared/svnrepo
+
+
+
+2008-08-20T17:14:55.113435Z
+61
+eric
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b0c50af9-b846-4ed6-bbe9-1b40fd1ad57e
+
+notifier
+dir
+
+layouts
+dir
+
+users
+dir
+
+releases
+dir
+
+events
+dir
+
+todos
+dir
+
+speakers
+dir
+

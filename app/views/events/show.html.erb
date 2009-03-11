@@ -1,0 +1,76 @@
+<p>
+  <b>TITLE:</b>
+  <%=h @event.title %>
+</p>
+
+<p>
+  <b>DATE:</b>
+  <%=h @event.date.to_s(:long) %>
+</p>
+
+<p>
+  <b>FOOTPRINTS:</b>
+  <%=h @event.footprints %>
+</p>
+
+<div id="release_div">
+	<h2>RELEASES</h2>
+	<div id="releases">
+		<%= render :partial => 'releases/releases',
+		 			 :locals  => {:releases => @event.releases,
+		 						  :event    => @event} %>
+	</div>
+
+	<h3>
+	  <%= link_to('Add a Release to this Event', new_event_release_path(@event), :id => "release_add") %>
+	</h3>
+	
+	<div id="edit_release">
+	</div>
+
+ 	<div id="release_form_prototype">
+	  <div id="release_form">
+	    <%= render :partial => 'releases/release_form', :locals => { :button_name => "Create this Release"} %>
+	  </div>
+	</div>
+	
+</div>
+
+<div id="todos_new">
+	
+	<h3>Incomplete ToDos</h3> 
+	
+	<% form_tag complete_todos_path, :method => :put do %>
+	<div id="todos_incomplete">
+	  <%= render :partial => 'todos/todo_item', :locals  => {:todos => @incomplete_todos, :event => @event} %>
+	</div>
+	<div id="spinner_div">
+	 <%= image_tag 'dots-white.gif', :id => 'spinner', :style => 'display: none' %>
+    </div> 
+	<%= submit_tag "Mark as Complete" %>
+	
+	<% end %>
+
+	
+	<h3>Complete ToDos</h3>
+	<div id="todos_complete">
+	  <%= render :partial => 'todos/todos_complete', :locals  => {:todos => @complete_todos, :event => @event}  %>
+	</div>
+	
+</div>
+
+	<h3>
+	  <%= link_to_function('Add a ToDo to this Event', nil, :id => "todo_add") do |page|
+		  page[:todo_form].blind_down
+		  page[:todo_add].fade
+	  end %>
+	</h3>	
+
+	<div id="todo_form">
+	  <%= render :partial => 'todos/todo_form' %>
+	</div>
+	
+<br />
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

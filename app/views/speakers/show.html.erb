@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @speaker.name %>
+</p>
+
+<p>
+  <b>Blanket:</b>
+  <%=h @speaker.blanket %>
+</p>
+
+<p>
+  <b>Blanket start:</b>
+  <%=h @speaker.blanket_start %>
+</p>
+
+<p>
+  <b>Blanket end:</b>
+  <%=h @speaker.blanket_end %>
+</p>
+
+
+<%= link_to 'Edit', edit_speaker_path(@speaker) %> |
+<%= link_to 'Back', speakers_path %>

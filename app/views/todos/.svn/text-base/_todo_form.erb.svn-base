@@ -1,0 +1,23 @@
+<p style="color: red"><%= flash[:error] %></p>
+
+<%- remote_form_for([@event, @todo], :before => "Element.show('spinner')", :complete => "Element.hide('spinner')" ) do |f| -%>
+  <p>
+  	User: <%= f.collection_select :user_id, @users, :id, :fullname %>
+  </p>
+  <p>
+  	Action: <%= f.text_field :action, :size => 40 %>
+  </p>
+  <p>
+  	<%= check_box_tag('send_email', "1", true ) %><span class="small">Notify via email</span>
+  </p>
+
+  <div id="todo_links">
+  	  <%= f.submit 'Add this Todo' %> or 
+	  <%= link_to_function("I'm done adding ToDos", nil) do |page|
+		page[:todo_form].blind_up
+		page[:todo_add].appear
+	  end %>	
+  </div>
+
+ 
+<%- end -%>

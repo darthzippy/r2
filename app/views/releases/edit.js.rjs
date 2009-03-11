@@ -1,0 +1,5 @@
+page[:edit_release].blind_down
+page[:edit_release].replace_html :partial => 'releases/release_form',
+                                 :locals  => { :release    => @release,
+                                               :event       => @event,
+                                               :button_name => "Save Release" }
